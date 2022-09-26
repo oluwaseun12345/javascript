@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containers{
+    width: 1200pxpx;
+    height: 1100px;
+    border-radius: 50px;
+     margin-left: 20px;
+    background-color: grey;
+    display: block;
+    padding: 40px;
+    justify-content: center;
+}
+.container h1{
+    text-align: center; 
+}
+.first-row{
+    display:flex;
+}
+
+.input-field{
+    border: none;
+}
+.input-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selection select{
+    padding: 10px 20px;
+}
+a{
+    background-color:aliceblue;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10px;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: red;
+}
+.cards img{
+    width: 100px;
+}
+.btn btn-secondary{
+    background-color: brown;
+}
+.Expiry Date{
+    float: right;
+}

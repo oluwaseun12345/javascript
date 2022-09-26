@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>what can javascript do?</h2>
+    <p id="demo">javascript canchange html content</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML ="hello Javascript!"''>click me!</button>
+<button 
+ onclick="document.getElementById('myImage').src='images/adidas.jpg'">switch image</button>
+ <img id="myImage" src="images/adidas.jpg" style="width:100px" height="100px">
+ <button
+ onclick="document.getElementById('myImage').src='images/jumanji.jpg'">switch image
+</button>
+<h1 id="h1"></h1>
+<h2 id="h2"></h2>
+<h3 id="h3"></h3>
+<h4 id="h4"></h4>
+<h5 id="h5"></h5>
+<h6 id="h6"></h6>
+<img id="img" height="100px">
+
+<p id="intro">finding HTML Element by Id</p>
+<p id="demo2"></p>
+
+<script>
+    const element= document.getElementById("intro")
+    document.getElementById("demo2").innerHTML=
+    "the text from the intro paragraph is:"+ 
+    element.innerHTML;
+</script>
+<script>
+    document.getElementById("h1").innerHTML="welcome to my first javascript";
+    document.getElementById("h2").innerHTML="welcome to my first javascript";
+    document.getElementById("h3").innerHTML="welcome to my first javascript";
+    document.getElementById("h4").innerHTML="welcome to my first javascript";
+    document.getElementById("h5").innerHTML="welcome to my first javascript";
+    document.getElementById("h6").innerHTML="welcome to my first javascript";
+    document.getElementById("img").src="images/adidas.jpg";
+</script>
+</body>
+</html>
